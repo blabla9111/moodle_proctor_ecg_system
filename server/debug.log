@@ -1,0 +1,30 @@
+2024-04-26 17:12:38,912 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-04-26 17:12:43,367 tensorflow   WARNING  From C:\Users\dinar\Desktop\server\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-04-26 17:12:47,494 server_with_model.views INFO     Take code for user_id = 2 and quiz_id = 1
+2024-04-26 17:13:20,967 django.utils.autoreload INFO     C:\Users\dinar\Desktop\server\web_project\settings.py changed, reloading.
+2024-04-26 17:13:22,010 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-04-26 17:13:26,443 tensorflow   WARNING  From C:\Users\dinar\Desktop\server\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-04-26 17:13:43,908 server_with_model.views INFO     Take code for user_id = 2 and quiz_id = 1
+2024-04-26 17:14:17,202 django.utils.autoreload INFO     C:\Users\dinar\Desktop\server\web_project\settings.py changed, reloading.
+2024-04-26 17:14:18,211 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-04-26 17:14:22,213 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-04-26 17:14:26,958 tensorflow   WARNING  From C:\Users\dinar\Desktop\server\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-04-26 17:14:27,636 server_with_model.views INFO     Take code for user_id = 2 and quiz_id = 1
+2024-04-26 17:14:47,727 django.utils.autoreload INFO     C:\Users\dinar\Desktop\server\web_project\settings.py changed, reloading.
+2024-04-26 17:14:48,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-04-26 17:14:53,167 tensorflow   WARNING  From C:\Users\dinar\Desktop\server\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-04-26 17:15:00,137 django.utils.autoreload INFO     C:\Users\dinar\Desktop\server\web_project\settings.py changed, reloading.
+2024-04-26 17:15:01,155 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-04-26 17:15:05,665 tensorflow   WARNING  From C:\Users\dinar\Desktop\server\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-04-26 17:15:12,485 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-04-26 17:15:17,087 tensorflow   WARNING  From C:\Users\dinar\Desktop\server\.venv\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-04-26 17:15:17,937 server_with_model.views INFO     Take code for user_id = 2 and quiz_id = 1
+2024-04-26 17:15:49,985 server_with_model.views INFO     Take code for user_id = 2 and quiz_id = 1
+2024-04-26 17:15:54,437 server_with_model.views INFO     Take code for user_id = 2 and quiz_id = 1
+2024-04-26 17:17:00,013 django.utils.autoreload INFO     C:\Users\dinar\Desktop\server\web_project\settings.py changed, reloading.
