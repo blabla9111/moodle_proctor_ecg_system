@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.12.17",
+    "cypress": "^13.6.2"
+  }
+}
