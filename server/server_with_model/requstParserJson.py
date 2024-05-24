@@ -27,4 +27,3 @@ class RequestParserJson():
 
     def get_ecg_data(self):
         return self.js['ecg_data']
-

@@ -25,7 +25,8 @@ def take_code(request):
 def find_code(request):
     requestParser = RequestParserJson(request=request)
     code = requestParser.get_code()
-    proctor_ecg = create_proctor_ecg(MdlProctorUser.objects, MdlProctorEcg.objects, code)
+    proctor_ecg = create_proctor_ecg(
+        MdlProctorUser.objects, MdlProctorEcg.objects, code)
     answer = None
     if (proctor_ecg):
         answer = proctor_ecg.id_transaction
@@ -37,7 +38,8 @@ def send_init_ecg(request):
     requestParser = RequestParserJson(request=request)
     id_transaction = requestParser.get_transaction_id()
     ecg_data = requestParser.get_ecg_data()
-    proctor_ecg = save_ecg_data(MdlProctorEcg.objects, MdlProctorUser.objects,id_transaction, ecg_data)
+    proctor_ecg = save_ecg_data(
+        MdlProctorEcg.objects, MdlProctorUser.objects, id_transaction, ecg_data)
     answer = False
     if (proctor_ecg):
         answer = True
@@ -51,7 +53,7 @@ def check_ecg(request):
     ecg_data = requestParser.get_ecg_data()
     is_same = identify_ecg(MdlProctorEcg.objects, MdlProctorUser.objects,
                            MdlProctorBadResultInfo.objects, id_transaction, ecg_data)
-    if is_same==None:
+    if is_same == None:
         is_same = "602"
     return HttpResponse(is_same)
 
@@ -61,7 +63,8 @@ def close_check_ecg(request):
     requestParser = RequestParserJson(request=request, json_start_flag=True)
     user_id = requestParser.get_user_id()
     quiz_id = requestParser.get_quiz_id()
-    proctor_user = close_proctoring(MdlProctorUser.objects,MdlProctorEcg.objects,user_id, quiz_id)
+    proctor_user = close_proctoring(
+        MdlProctorUser.objects, MdlProctorEcg.objects, user_id, quiz_id)
     answer = False
     if proctor_user:
         answer = True

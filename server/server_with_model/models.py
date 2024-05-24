@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class MdlProctorBadResultInfo(models.Model):
     id_transaction = models.CharField(max_length=50)
     curr_time = models.DateTimeField()
@@ -43,4 +44,3 @@ class MdlProctorUser(models.Model):
     class Meta:
         managed = True
         db_table = 'mdl_proctor_user'
-
