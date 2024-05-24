@@ -34,7 +34,7 @@ moodle_proctor_ecg_system -- модуль для образовательной 
 - Папку proctor_ecg расположить в папке moodle/
 - Папку slack в moodle/blocks
 - В папке change_files файлы, в которые были добавлены блоки кода. Измененные файлы находятся в moodle/mod/quiz. 
-- В файл config.php добавить $CFG->wwwproctorecg = 'http://localhost:8000' ; (расположение сервера ECG Proctor Server).
+- В файл moodle/config.php добавить $CFG->wwwproctorecg = 'http://localhost:8000' ; (расположение сервера ECG Proctor Server).
 #### e2e_tests
 - npm run cypress
 #### model
